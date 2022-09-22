@@ -11,6 +11,8 @@ int main() {
 		std::cin >> fecha;
 		Date date(fecha);
 		date.pullApartDate();
+		date.castAndVerifyInteger();
+
 	} while (option == 0);
 
 	return 0;
