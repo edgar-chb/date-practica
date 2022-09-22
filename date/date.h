@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector> 
-
+#include <string>
 class Date
 {
 
@@ -9,9 +9,9 @@ class Date
 
 		std::string date;
 
-		std::string vector[2];
+		std::vector <int> dateInt;
 
-		int array[2];
+		std::vector <std::string> dateVector;
 
 	public:
 

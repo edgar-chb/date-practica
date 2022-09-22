@@ -12,6 +12,7 @@ int main() {
 		Date date(fecha);
 		date.pullApartDate();
 		date.castAndVerifyInteger();
+		date.verifyValidDate();
 
 	} while (option == 0);
 
